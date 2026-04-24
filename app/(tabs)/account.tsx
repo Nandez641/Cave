@@ -1,7 +1,6 @@
-import { View, Text, StyleSheet, } from "react-native";
-import { Ionicons, Feather, MaterialCommunityIcons } from "@expo/vector-icons";
-import { Switch } from "react-native";
+import { Ionicons } from "@expo/vector-icons";
 import { useState } from "react";
+import { StyleSheet, Switch, Text, View, } from "react-native";
 
 export default function HomeScreen() {
     const [isEnabled, setIsEnabled] = useState(false);
@@ -29,7 +28,7 @@ export default function HomeScreen() {
 
             <View style={styles.profileview}>
                 <View style={styles.userpic}> <Ionicons name='person' size={45} color='grey' /></View>
-                <Text style={styles.userName}>@Fernandez_Chinedu</Text>
+                <Text style={styles.userName}>@Chinedu_Anselem</Text>
                 <Ionicons style={styles.copyIcon} name="copy-outline" size={24} color='grey' />
             </View>
 

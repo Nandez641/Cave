@@ -31,7 +31,7 @@ export default function HomeScreen() {
                     </Pressable>
                 </View>
                 <View style={styles.headingText}>
-                    <Text style={styles.userName}> Hi, @Fernandez_Chinedu</Text>
+                    <Text style={styles.userName}> Hi, @Chinedu_Anselem</Text>
                     <Text style={styles.subtitle}>Start Saving now</Text>
                 </View>
 

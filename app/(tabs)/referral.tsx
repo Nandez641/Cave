@@ -26,7 +26,7 @@ export default function HomeScreen() {
             <View style={styles.saving1}>
                 <View>
                     <Text style={{ color: 'grey', fontSize: 16, marginTop: 12, }}> Your referral code</Text>
-                    <Text style={{ color: 'white', fontSize: 26, fontWeight: 'bold', marginTop: 7, marginLeft: 7 }}>XEND-FERNANDEZ</Text>
+                    <Text style={{ color: 'white', fontSize: 26, fontWeight: 'bold', marginTop: 7, marginLeft: 7 }}>XEND-Anselem</Text>
                 </View>
 
                 <View style={{ flexDirection: 'row', marginTop: 15, alignItems: 'center', gap: 10, }}>
